@@ -1,19 +1,15 @@
 ---
-name: New dataset
-about: Add a new dataset to the ALA
+name: New publication request
+about: Add a dataset to the ALA
 title: 'New Dataset: [Insert Short Dataset Title]'
 labels: ''
 assignees: ''
 
 ---
 
-To publish a dataset with the ALA, please follow the following steps:
+Copy the url for your dataset here:
 
-1. Format your data as a Darwin Core Archive. For information on how to build data in this format, see [the galaxias R package](https://galaxias.ala.org.au) or [our help file on how to share a dataset with the ALA](https://support.ala.org.au/support/solutions/articles/6000261427-sharing-a-dataset-with-the-ala).
-2. Upload your dataset to a stable repository such as GitHub or Zenodo
-3. Share the Link to your dataset with us via this web form.
-
-Copy the link to your dataset here:
+If this is an update to a dataset that has previously been published on ALA, please record your data resource ID here:
 
 Please ensure you have considered the following points during your data processing:
 
