@@ -1,0 +1,19 @@
+# Respond to new publication requests (issues) with a standardised checklist
+on:
+  issues:
+    types: [opened]
+    
+name: new-issue-responder
+
+jobs:
+  new-issue-responder:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }} 
+    uses: peter-evans/create-or-update-comment@v4
+      with:
+        issue-number: ${{ github.event.number }}
+        body-path: https://github.com/AtlasOfLivingAustralia/data-publication/blob/main/issue-response.md     
+
+        
+  
